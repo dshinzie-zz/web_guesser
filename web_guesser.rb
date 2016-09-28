@@ -1,5 +1,6 @@
-require 'sinatra'
 require 'sinatra/reloader'
+require 'sinatra'
+
 
 SECRET_NUMBER = rand(101)
 
