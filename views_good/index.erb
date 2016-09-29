@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <style>
+      #way_high {
+        background-color: #ed;
+      }
+
+      #way_low {
+        background-color: red;
+      }
+
+      #high {
+        background-color: salmon;
+      }
+
+      #low {
+        background-color: salmon;
+      }
+
+      #correct {
+        background-color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <input type='text' name='guess'  />
+      <input type='submit' value='Guess!' />
+    </form>
+    <p id=<%= message_style %> >
+      <%= message %>
+    </p>
+  </body>
+</html>
